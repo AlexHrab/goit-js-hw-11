@@ -31,7 +31,13 @@ body{
   padding: 0;
   padding-bottom: 20px;
   margin: auto;
+  
+  
+  margin-top: 0;
+  padding-top: 36px;
 }
+
+
 
 img{
   display: block;
@@ -66,6 +72,7 @@ flex-direction: column;
 border-radius: 4px;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 transition: transform 500ms ease-in-out;
+overflow: hidden;
 }
 
 .gallery-item:hover{
@@ -79,6 +86,9 @@ transition: transform 500ms ease-in-out;
   height: 48px;
   align-items: center;
   justify-content: center;
+  background: rgba(255,255,255, 0.2);
+
+  
 }
 
 .gallery-text{
@@ -93,6 +103,7 @@ transition: transform 500ms ease-in-out;
   line-height: 1.33333;
   letter-spacing: 0.04em;
   color: #2e2f42;
+  
 }
 
 .gallery-text span{
@@ -106,7 +117,7 @@ color: #2e2f42;
 
 .form{
   box-sizing: border-box;
-  margin: 36px auto 32px;
+  margin: 0 auto 32px;
   display: flex;
   justify-content: center;
 }
@@ -119,26 +130,26 @@ border: 1.5px solid #808080;
 border-radius: 4px;
 width: 272px;
 height: 40px;
-background: transparent;
+background: rgba(255,255,255, 0.4);
 font-family: "Montserrat", sans-serif;
-font-weight: 400;
-font-size: 16px;
+font-weight: 500;
+font-size: 18px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #808080;
+color:#808080;
 margin-right: 8px;
 outline: none;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .form input:hover{
-border-color: #000;
+border-color: #99c1b2;
 background: transparent;
 }
 
 .form input:focus{
-  border-color: #4e75ff;
-  background: transparent;
+  border-color: #99c1b2;
+  background: rgba(255,255,255, 0.4);
   }
 
 .form button{
@@ -147,7 +158,7 @@ background: transparent;
 padding: 8px 16px;
 width: 91px;
 height: 40px;
-background: #4e75ff;
+background: #bed6c5;
 border: none;
 font-family: "Montserrat", sans-serif;
 font-weight: 500;
@@ -155,11 +166,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+opacity: 80%;
 }
 
 .form button:hover{
-  background: #6c8cff;
+  background: #99c1b2;
 }
 
 .gallery-link{
