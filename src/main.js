@@ -25,6 +25,7 @@ form.addEventListener("submit", forListener)
 function forListener(e){
   e.preventDefault()
   showLoader()
+  list.innerHTML = ""
    const inputValue = e.currentTarget.elements.field.value
  if(inputValue){ 
   getPicture(inputValue).then((result) =>{ 
@@ -48,7 +49,6 @@ input.value = ""
 }else{iziToast.warning({
   message: 'Please enter the name of the picture!', position: "center", close: false, closeOnClick: true, progressBar: false, messageSize: 30, timeout: false, displayMode: 1
 })
-hideLoader()
 }
 }
 
