@@ -64,7 +64,6 @@ a{
 
 .gallery-item{
   box-sizing: border-box;
-  border: 1px solid #808080;
 width: 360px;
 height: 200px;
 display: flex;
